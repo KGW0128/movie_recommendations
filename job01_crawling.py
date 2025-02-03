@@ -86,10 +86,9 @@ for all_i in range(5):
                 time.sleep(1)
 
 
-            review_xpath = '//*[@id="contents"]/div[4]/section[2]/div/article[{}]/div[3]'.format(review_i)
-
-
             try:
+                review_xpath = '//*[@id="contents"]/div[5]/section[2]/div/article[{}]/div[3]/a/h5'.format(review_i)
+
                 # 뷰 크롤링 및 한글 외 문자 제거
                 review = driver.find_element(By.XPATH, review_xpath).text
                 review = re.compile('[^가-힣 ]').sub(' ', review)  # 한글과 공백만 남김
