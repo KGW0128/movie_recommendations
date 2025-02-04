@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b353e57-fdd3-4ba8-adb8-ef95a9c30626" name="변경" comment="" />
+    <list default="true" id="3b353e57-fdd3-4ba8-adb8-ef95a9c30626" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job06_recommendation.py" beforeDir="false" afterPath="$PROJECT_DIR$/job06_recommendation.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,23 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.job01_crawling.executor": "Run",
-    "Python.job02_comcat.executor": "Run",
-    "Python.job03_preprocessing.executor": "Run",
-    "Python.job04_word_cloud.executor": "Run",
-    "Python.job05_TFIDF.executor": "Run",
-    "Python.job06_recommendation.executor": "Run",
-    "Python.range.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/workspace/movie_recommendations",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.job01_crawling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.job02_comcat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.job03_preprocessing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.job04_word_cloud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.job05_TFIDF.executor&quot;: &quot;Run&quot;,
+    &quot;Python.job06_recommendation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.range.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/movie_recommendations&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\movie_recommendations" />
