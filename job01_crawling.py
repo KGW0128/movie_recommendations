@@ -58,7 +58,8 @@ time.sleep(3)  # 페이지 로딩 대기
 df_titles = pd.DataFrame()
 
 # 저장할 디렉토리 설정
-save_path = "C:/PyCharm_workspace/movie_recommendations/review/"
+#저장위치 잘 확인하기
+save_path = "C:/workspace/movie_recommendations/review"
 os.makedirs(save_path, exist_ok=True)  # 폴더 없으면 자동 생성
 
 
@@ -70,16 +71,16 @@ os.makedirs(save_path, exist_ok=True)  # 폴더 없으면 자동 생성
 # ===============================
 
 
-for movie_i in range(1, 16):  # 최대 15개 영화 크롤링
+for movie_i in range(50, 1001):  # 최대 15개 영화 크롤링
 
     time.sleep(0.5)  # 페이지 안정화 대기
     reviews = []  # 리뷰 리스트 초기화
 
     # 8개 단위로 스크롤 (한 페이지에 8개씩 표시됨)
     if movie_i % 8 == 0:
-        for _ in range(int(movie_i/8)): # 만약 중간부터 다시 크롤링 할 것을 대비한 반복문
+        for _ in range(int(movie_i/8)*2): # 만약 중간부터 다시 크롤링 할 것을 대비한 반복문
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(3)  # 페이지 로딩 대기
+            time.sleep(2)  # 페이지 로딩 대기
 
 
     # 영화 제목 가져오기
@@ -116,7 +117,7 @@ for movie_i in range(1, 16):  # 최대 15개 영화 크롤링
 # ===============================
 
 
-    for review_i in range(1, 111):  # 여유롭게 110개까지 크롤링
+    for review_i in range(1, 51):  # 여유롭게 110개까지 크롤링
 
         # 8개마다 스크롤 (한 페이지당 8개)
         if review_i % 8 == 1:
