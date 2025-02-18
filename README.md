@@ -66,7 +66,7 @@ t-SNE를 통해 고차원 벡터들을 2D 평면으로 변환하여, 유사한 �
 
 root/  
 ├── .idea/&nbsp;&nbsp;&nbsp;&nbsp;# 프로젝트 설정 관련 폴더 (IDE 설정 파일)  
-├── models/                          # 학습된 모델 파일들이 저장되는 폴더  
+├── models/\ \ \ \                        # 학습된 모델 파일들이 저장되는 폴더  
 ├── review/                          # 영화 리뷰 데이터 파일  
 ├── crawling_data/                   # 크롤링 관련 코드 폴더  
 │   ├── job01_crawling.py            # 영화 데이터를 크롤링하는 스크립트  
