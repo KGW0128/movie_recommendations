@@ -62,31 +62,31 @@ t-SNE를 통해 고차원 벡터들을 2D 평면으로 변환하여, 유사한 �
 
 ## 9. 프로젝트 구조
 ---
-root/
-├── .idea/                                 # 프로젝트 설정 관련 폴더 (IDE 설정 파일)
-├── models/                                # 학습된 모델 파일들이 저장되는 폴더
-├── review/                                # 영화 리뷰 데이터 파일
-├── crawling_data/                         # 크롤링 관련 코드 폴더
-│   └── job01_crawling.py                  # 영화 데이터를 크롤링하는 스크립트
-│   └── job02_comcat.py                    # 크롤링한 데이터를 병합하는 스크립트
-│   └── job03_preprocessing.py             # 데이터 전처리 스크립트
-│   └── job04_word_cloud.py                # 워드 클라우드를 생성하는 스크립트
-│   └── job05_TFIDF.py                     # TF-IDF 벡터화 및 모델 학습 스크립트
-│   └── job06_recommendation.py            # 추천 시스템 구축 스크립트
-│   └── job07_movie_recommendation_app.py  # 영화 추천 시스템 앱 실행 스크립트
-│   └── job08_word2vec.py                  # Word2Vec 모델 학습 스크립트
-│   └── job09_word2vec_visualization.py    # Word2Vec 시각화 스크립트
-├── Cleaned_Reviews/                       # 전처리된 리뷰 데이터가 저장되는 폴더
-├── Merged_Reviews/                        # 병합된 리뷰 데이터가 저장되는 폴더
-├── StopWord/                              # 불용어 파일 저장 폴더
-├── __pycache__/                           # 파이썬 바이트 코드 캐시 폴더
-├── malgun.ttf                             # 사용된 폰트 파일 (Malgun 폰트)
-├── requirements.txt                       # 프로젝트에 필요한 라이브러리 목록
-├── ui/                                    # UI 파일 폴더
-│   └── ui.ui                              # PyQt5 UI 파일
-├── README.md                              # 프로젝트 설명 파일
+## 9. 프로젝트 구조
 
-
+root/  
+├── .idea/                           # 프로젝트 설정 관련 폴더 (IDE 설정 파일)  
+├── models/                          # 학습된 모델 파일들이 저장되는 폴더  
+├── review/                          # 영화 리뷰 데이터 파일  
+├── crawling_data/                   # 크롤링 관련 코드 폴더  
+│   ├── job01_crawling.py            # 영화 데이터를 크롤링하는 스크립트  
+│   ├── job02_comcat.py              # 크롤링한 데이터를 병합하는 스크립트  
+│   ├── job03_preprocessing.py       # 데이터 전처리 스크립트  
+│   ├── job04_word_cloud.py          # 워드 클라우드를 생성하는 스크립트  
+│   ├── job05_TFIDF.py               # TF-IDF 벡터화 및 모델 학습 스크립트  
+│   ├── job06_recommendation.py      # 추천 시스템 구축 스크립트  
+│   ├── job07_movie_recommendation_app.py # 영화 추천 시스템 앱 실행 스크립트  
+│   ├── job08_word2vec.py            # Word2Vec 모델 학습 스크립트  
+│   └── job09_word2vec_visualization.py # Word2Vec 시각화 스크립트  
+├── Cleaned_Reviews/                 # 전처리된 리뷰 데이터가 저장되는 폴더  
+├── Merged_Reviews/                  # 병합된 리뷰 데이터가 저장되는 폴더  
+├── StopWord/                        # 불용어 파일 저장 폴더  
+├── __pycache__/                     # 파이썬 바이트 코드 캐시 폴더  
+├── malgun.ttf                       # 사용된 폰트 파일 (Malgun 폰트)  
+├── requirements.txt                 # 프로젝트에 필요한 라이브러리 목록  
+├── ui/                              # UI 파일 폴더  
+│   └── ui.ui                        # PyQt5 UI 파일  
+└── README.md                        # 프로젝트 설명 파일
 ---
 
 
