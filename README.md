@@ -87,6 +87,7 @@ root/
 ├── ui/                              # UI 파일 폴더  
 │   └── ui.ui                        # PyQt5 UI 파일  
 └── README.md                        # 프로젝트 설명 파일
+
 ---
 
 
